@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM REVIEW TASK</title>	
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+		      <script>
+			  document.write("<br>");
+			  document.write("<br>");
+			  document.write("1.POSITIVE NUMBER");
+			  document.write("<br>");
+			  document.write("<br>");
+		  		 var a=parseInt(prompt("Enter the positive or negative number"));
+				 
+				 if(a>0){
+				   document.write(" the number is positive");
+				   }
+                 else {
+				   document.write(" the number is negative");
+				   }
+				   
+		      document.write("<br>");
+			  document.write("<br>");
+			  document.write("2.TWO NUMBER");
+			  document.write("<br>");
+			  document.write("<br>");		   
+	  		 var b=parseInt(prompt("Enter the first number"));   
+     		 var c=parseInt(prompt("Enter the second number"));	   
+				  if (b>c){
+				    document.write("number b is large");
+                  }
+				  else if (c>b){
+				    document.write("number c is large");
+                  }
+                  else{
+                   document.write("error");				  
+             }
+			 
+	          document.write("<br>");
+			  document.write("<br>");
+			  document.write("3.THREE NUMBER");
+			  document.write("<br>");
+			  document.write("<br>");
+     		 var x=parseInt(prompt("Enter the first number"));	   
+	         var y=parseInt(prompt("Enter the second number"));   
+     		 var z=parseInt(prompt("Enter the third number"));	
+ 
+ 				  if ((x>y)&&(x>z)){
+				    if (y>z){
+					   document.write(" x is large, z is small");
+						 }
+                      else{
+					   document.write("x is large,y is small");
+					  }
+					  }
+                  else if((y>x)&&(y>z)){
+				     if (x>z){
+					    document.write("y is large,z is small");
+						}
+						else{
+						document.write("y is large,x is small");
+						}
+						}
+				else {
+                    if (y>x){
+                       document.write("z is large,x is small");
+                      }
+                    else{
+                     document.write("z is large,y is small");
+                      }
+                     }					 
+				   </script>
+</body>
+</html>
